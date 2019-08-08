@@ -11494,23 +11494,32 @@ var Home = function Home() {
       lineNumber: 11
     },
     __self: this
-  }, "HomePage")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "HomePage")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/panda.jpg",
+    alt: "panda",
+    width: 200,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, "Hello World!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/users",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Users")));
