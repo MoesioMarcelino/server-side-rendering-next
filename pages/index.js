@@ -3,6 +3,8 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
+import withAnalytics from "../src/hocs/withAnalytics";
+
 const Home = () => (
   <>
     <Head>
@@ -15,4 +17,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default withAnalytics()(Home);
