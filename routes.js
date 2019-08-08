@@ -1,6 +1,6 @@
 const routes = require("next-routes");
 
 module.exports = routes()
-  .add("/", "home")
+  .add("/", "HomePage")
   .add("/users", "users")
   .add("/users/:user", "detail");
